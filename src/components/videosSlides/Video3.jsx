@@ -31,7 +31,7 @@ function Video3() {
         >
           <motion.video
             ref={videoRef1}
-            src="public\videos\v3.mp4" // Replace with your video URL
+            src="/videos/v3.mp4" // Replace with your video URL
             className="absolute w-full h-full object-contain transition-opacity duration-1000 ease-in-out rounded-lg"
             loop
             muted
