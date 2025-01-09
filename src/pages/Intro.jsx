@@ -44,13 +44,13 @@ const Intro = () => {
       </div>
       {/* Navigation Buttons */}
       <button
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-transprent border-2 border-white font-bold text-white p-2 rounded-full"
+        className="absolute sm:left-4 left-1 top-1/2 transform -translate-y-1/2 bg-transprent border-2 border-white font-bold text-white p-2 rounded-full"
         onClick={prevSlide}
       >
         &lt;
       </button>
       <button
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-transprent border-2 border-white font-bold text-white p-2 rounded-full"
+        className="absolute sm:right-4  right-1 top-1/2 transform -translate-y-1/2 bg-transprent border-2 border-white font-bold text-white p-2 rounded-full"
         onClick={nextSlide}
       >
         &gt;
