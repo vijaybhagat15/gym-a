@@ -17,7 +17,7 @@ function Slide1() {
           style={{ height: "500px", width: "400px" }}
         >
           <motion.img
-            src="https://www.seekpng.com/png/full/239-2393218_gym-png.png"
+            src="\imeges\s1.png"
             className="absolute w-full h-full object-contain transition-opacity duration-1000 ease-in-out"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}

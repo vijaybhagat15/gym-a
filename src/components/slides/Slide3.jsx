@@ -20,7 +20,7 @@ function Slide3() {
           transition={{ duration: 1.2 }}
         >
           <motion.img
-            src="https://png.pngtree.com/png-vector/20240327/ourmid/pngtree-stylish-fitness-trainer-png-image_12226988.png"
+            src="\imeges\s3.png"
             className="absolute w-full h-full object-contain transition-opacity duration-1000 ease-in-out"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
