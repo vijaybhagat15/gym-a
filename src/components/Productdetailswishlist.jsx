@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { FaHeart, FaRegHeart, FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
+import { FaHeart, FaRegHeart,} from 'react-icons/fa';
 import { products } from '../data/products'; // Assuming the products data is imported
-
+import React from "react";
 export default function ProductDetailsWithWishlist() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);

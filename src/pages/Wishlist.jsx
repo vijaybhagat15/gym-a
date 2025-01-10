@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaStar, FaStarHalfAlt, FaRegStar, FaHeart } from 'react-icons/fa';
-
+import React from "react";
 export default function Wishlist() {
   const [wishlist, setWishlist] = useState(() => {
     const savedWishlist = localStorage.getItem('wishlist');

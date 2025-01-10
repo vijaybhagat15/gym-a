@@ -1,4 +1,4 @@
-
+import React from "react";
 function Trainers() {
   return (
     <section className="bg-gradient-to-b from-[#394d22] to-[#f4d35e] text-white font-sans py-6 px-6  border-b-2 border-white">

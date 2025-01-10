@@ -1,13 +1,8 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import {
-  FaHome,
-  FaBoxOpen,
-  FaHeart,
-  FaUserCircle,
-  FaSignInAlt,
-  FaCog,
+  FaHome,FaBoxOpen,FaHeart,FaUserCircle,FaSignInAlt,FaCog,
 } from 'react-icons/fa';
-
+import React from "react";
 export default function BottomLinks() {
   const isAuthenticated = localStorage.getItem('auth');
   const navigate = useNavigate();

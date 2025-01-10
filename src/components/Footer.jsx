@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import {  FaTwitter, FaInstagram} from 'react-icons/fa';
-
+import React from "react";
 export default function Footer() {
     return (
         <footer className="bg-gradient-to-br from-[#283618] to-[#606c38] text-white font-sans  border-y">

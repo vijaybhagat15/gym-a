@@ -1,4 +1,4 @@
-
+import React from "react";
 function Equipment() {
   return (
     <section className=" pt-6 px-6 bg-gradient-to-b from-[#394d22] to-[#f4d35e] text-white  border-b-2 border-white">

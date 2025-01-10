@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { products } from '../data/products';
 import { FaHeart, FaRegHeart, FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
-
+import React from "react";
 export default function ProductDetail() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);

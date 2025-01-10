@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import React from "react";
 export default function Profile() {
   const [user, setUser] = useState(() => JSON.parse(localStorage.getItem('user')) || {});
   const [editable, setEditable] = useState(false);

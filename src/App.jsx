@@ -18,7 +18,7 @@ import Wishlist from './pages/Wishlist';
 import Productdetailswishlist from './components/Productdetailswishlist';
 import BottomLinks from './components/Battomlinks';
 import About from './pages/About';
-
+import React from "react";
 
 
 

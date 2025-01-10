@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
-
+import React from "react";
 function Video2() {
   // Create reference for the video
   const videoRef2 = useRef(null);

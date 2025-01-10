@@ -1,4 +1,5 @@
 import { div } from "framer-motion/client"
+import React from "react";
 const AboutUs = () => {
   const customers = [
     { id: 1, image: "https://i.pravatar.cc/150?u=customer1", name: "Customer 1" },

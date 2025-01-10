@@ -1,5 +1,4 @@
 import React from "react";
-
 const InstagramStyleStories = () => {
   // Generate 50 items dynamically with images from i.pravatar.cc
   const items = Array.from({ length: 50 }, (_, index) => ({

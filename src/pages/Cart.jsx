@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaTrash, FaMinus, FaPlus } from 'react-icons/fa';
-
+import React from "react";
 export default function Cart() {
   const calculateTaxes = () => {
     const taxRate = 0.1; // 10% tax rate

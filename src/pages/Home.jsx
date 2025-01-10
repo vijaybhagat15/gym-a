@@ -1,5 +1,5 @@
 import Equipment from '../components/Equipment';
-// import Hero from '../components/Hero';
+import React from "react";
 import Trainers from '../components/Trainers';
 import Videos from '../components/Videos';
 import Intro from './Intro';

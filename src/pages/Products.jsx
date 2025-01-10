@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { products } from '../data/products';
 import { FaStar, FaStarHalfAlt, FaRegStar, FaHeart } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
-
+import React from "react";
 export default function Products() {
   const navigate = useNavigate();
 

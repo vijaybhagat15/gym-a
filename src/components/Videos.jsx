@@ -1,7 +1,7 @@
 import Video1 from "../components/videosSlides/Video1";
 import Video2 from "../components/videosSlides/Video2";
 import Video3 from "../components/videosSlides/Video3";
-
+import React from "react";
 import { useState, useEffect } from "react";
 
 const Videos = () => {

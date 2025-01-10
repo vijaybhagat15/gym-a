@@ -1,4 +1,5 @@
 import { FaEnvelope, FaPhoneAlt, FaUser, FaPaperPlane } from "react-icons/fa";
+import React from "react";
 export default function Contact() {
   return (
     <div className=" border-b-2 border-white bg-[#283618]  text-[#283618]">

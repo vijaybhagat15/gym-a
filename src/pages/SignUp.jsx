@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import React from "react";
 export default function SignUp() {
   const [formData, setFormData] = useState({ username: '', email: '', password: '', confirmPassword: '' });
   const [loading, setLoading] = useState(false);

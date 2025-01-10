@@ -2,7 +2,7 @@ import Slide1 from "../components/slides/Slide1";
 import Slide2 from "../components/slides/Slide2";
 import Slide3 from "../components/slides/Slide3";
 import { useState, useEffect } from "react";
-
+import React from "react";
 const Intro = () => {
   // State to track the current slide index
   const [currentSlide, setCurrentSlide] = useState(0);

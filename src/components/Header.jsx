@@ -1,4 +1,4 @@
-/* eslint-disable no-lone-blocks */
+import React from "react";
 import { Link, useNavigate } from 'react-router-dom'; 
 import {FaHome,FaBoxOpen,FaTimes,FaCartPlus,FaBars,FaUserCircle,FaHeart,FaBlog,FaCog,FaPhoneAlt,FaSignInAlt,FaInfoCircle} from 'react-icons/fa';
 import { useState } from 'react';
